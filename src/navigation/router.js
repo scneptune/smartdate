@@ -12,7 +12,7 @@ import WelcomeSplash from 'containers/WelcomeSplash';
 import LoadingScreen from 'containers/LoadingScreen';
 import HomeFeed from 'containers/HomeFeed';
 
-const createRootNavigator = (isSignedIn = false) => {
+const createRootNavigator = () => {
 
   return createSwitchNavigator(
     {
