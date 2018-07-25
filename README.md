@@ -3,7 +3,7 @@
 This is a second attempt at an app that I attempted to build a few years ago called datePathfinder. The concept is an app that given a starting location will choose three random activities based on some user chosen categories. It's targeted at friends or couples that looking for adventure in their neighborhood. 
 
 ## How To Get It Up And Running
-=======================
+
 Requirements: 
 - Node v8.11.1
 - NPM v5.4.1
