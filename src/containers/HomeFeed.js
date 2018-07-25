@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View} from 'react-native';
+import {Platform, StyleSheet, Text, View, Button} from 'react-native';
 
-import { FormLabel, FormInput, FormValidationMessage, Button, Card } from 'react-native-elements';
 import firebase from 'react-native-firebase';
 
 const instructions = Platform.select({
@@ -20,7 +19,7 @@ export default class HomeFeed extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>Welcome You've Logged into Third Act!</Text>
+        <Text style={styles.welcome}>Welcome You've Logged into SmartDate!</Text>
         <Text style={styles.instructions}>To get started, edit this file </Text>
         <Text style={styles.instructions}>{instructions}</Text>
         <Button onPress={this._signOut} title="Sign out" />
