@@ -1,0 +1,3 @@
+rootProject.name = 'smartdate'
+
+include ':app'
