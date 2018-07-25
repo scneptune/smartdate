@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "327769939330",
+    "firebase_url": "https://smartdate-163e4.firebaseio.com",
+    "project_id": "smartdate-163e4",
+    "storage_bucket": "smartdate-163e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327769939330:android:8e3191cb14341632",
+        "android_client_info": {
+          "package_name": "com.smartdate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327769939330-he28hd1vgfdhbobveok2p34onif41np7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smartdate",
+            "certificate_hash": "b4078e3059a0792b374618a5f8c4e97605979d14"
+          }
+        },
+        {
+          "client_id": "327769939330-ads0fbbrpglp4cftbqrpua23ka4e0ca0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFasFXxZizz3b6s_XCX-vr5lrQkY-pRdQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327769939330-ads0fbbrpglp4cftbqrpua23ka4e0ca0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
