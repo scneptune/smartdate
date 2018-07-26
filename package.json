@@ -4,20 +4,20 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "android": "watchman watch-del-all && react-native run-android -- --reset-cache",
+    "android": "watchman watch-del-all && rm -rf /tmp/metro-bundler-cache-* && rm -rf /tmp/haste-map-react-native-packager-*",
     "test": "jest"
   },
   "dependencies": {
-    "babel-plugin-module-resolver": "^3.1.1",
     "react": "16.4.1",
     "react-native": "0.56.0",
     "react-native-firebase": "^4.3.8",
-    "react-native-google-signin": "^0.12.0",
+    "react-native-google-signin": "^1.0.0-rc1",
     "react-native-vector-icons": "^4.6.0",
     "react-navigation": "^2.9.1"
   },
   "devDependencies": {
     "babel-jest": "23.4.0",
+    "babel-plugin-module-resolver": "^3.1.1",
     "babel-preset-react-native": "^5",
     "jest": "23.4.1",
     "react-test-renderer": "16.4.1"

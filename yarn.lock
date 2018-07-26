@@ -4261,9 +4261,9 @@ react-native-firebase@^4.3.8:
     postinstall-build "^5.0.1"
     prop-types "^15.6.1"
 
-react-native-google-signin@^0.12.0:
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/react-native-google-signin/-/react-native-google-signin-0.12.0.tgz#fc549593adbc92ed2a5a683a957f157650ece961"
+react-native-google-signin@^1.0.0-rc1:
+  version "1.0.0-rc1"
+  resolved "https://registry.yarnpkg.com/react-native-google-signin/-/react-native-google-signin-1.0.0-rc1.tgz#577d3b93d13d394d50de7a66b234759b297a95bc"
 
 react-native-safe-area-view@^0.7.0:
   version "0.7.0"
