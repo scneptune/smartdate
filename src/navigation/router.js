@@ -8,9 +8,9 @@ import React from 'react';
 import { Platform, StatusBar } from 'react-native';
 
 
-import WelcomeSplash from 'containers/WelcomeSplash';
-import LoadingScreen from 'containers/LoadingScreen';
-import HomeFeed from 'containers/HomeFeed';
+import WelcomeSplash from '@containers/WelcomeSplash';
+import LoadingScreen from '@containers/LoadingScreen';
+import HomeFeed from '@containers/HomeFeed';
 
 const createRootNavigator = () => {
 
@@ -30,7 +30,7 @@ const createRootNavigator = () => {
       }
     },
     {
-      initialRouteName: LoadingScreen
+      initialRouteName: 'Loading'
     }
   );
 };

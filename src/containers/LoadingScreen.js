@@ -2,17 +2,16 @@ import React, { Component } from 'react'
 
 import { View, Text, ActivityIndicator, StyleSheet } from 'react-native'
 
-import * as firebase from 'react-native-firebase';
+import firebase from 'react-native-firebase';
 
 export default class Loading extends Component {
   constructor(props) {
     super(props);
-    this.unsubscriber = null;
   }
   componentDidMount () {
-    firebase.auth().onAuthStateChanged(
-      user => navigation.navigate(user ? 'Home' : 'Login')
-    );
+    setTimeout(() => firebase.auth().onAuthStateChanged(
+      user => this.props.navigation.navigate(user ? 'Home' : 'Login')
+    ), 500);
   }
   render() {
     return (
