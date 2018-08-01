@@ -11,7 +11,12 @@
           ".json",
           ".js",
         ],
-        "root": ["./src/**", "./app_assets/**"]
+        "root": ["./src/**", "./app_assets/**"],
+        "alias": {
+          "@containers": "./src/containers",
+          "@navigation": "./src/navigation",
+          "@libs": "./src/libs"
+        }
       }
     ]
   ]
